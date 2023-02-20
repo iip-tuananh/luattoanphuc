@@ -36,17 +36,6 @@
    <div class="back-to-top"><i class="fa  fa-long-arrow-up"></i></div>
    <div class="site-footer">
          <div class="container">
-         {{-- <div class="footer-top">
-            <div class="text">
-               <h3>Đăng ký nhận tin</h3>
-               <p>Hãy để lại email tại đây. Chúng tôi sẽ liên hệ lại cho bạn ngay.</p>
-            </div>
-            <form action="{{route('postcontact')}}" method="post" id="mc-embedded-subscribe-form" class="section-newsletter__form">
-               @csrf
-               <input type="email" value="" placeholder="Email của bạn" name="email" id="mail" aria-label="general.newsletter_form.newsletter_email" >
-               <button  class="btn btn-white subscribe" type="submit" id="subscribe"><i class="fa fa-paper-plane"></i></button>
-            </form>
-         </div> --}}
          <div class="footer-inner">
             <div class="row">
                <div class="block block-cs col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -107,7 +96,7 @@
    </div>
    <div class="copyright clearfix">
          <div class="container">
-         <div class="border">© Bản quyền thuộc về HTC Việt Nam <span class="nc hidden-xs">|</span> <span class="cungcap">Cung cấp bởi 
+         <div class="border">© Bản quyền thuộc về Luật Toàn Phúc <span class="nc hidden-xs">|</span> <span class="cungcap">Cung cấp bởi 
             <a href="https://sbtsoftware.vn/" rel="nofollow" title="SBT software" target="_blank">SBT</a>
             </span>
          </div>

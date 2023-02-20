@@ -44,7 +44,6 @@
    <!-- Build Main CSS -->			
    <!-- Bizweb javascript customer -->
    <script src="{{asset('frontend/js/jquery-min.js')}}" type="text/javascript"></script>
-   <script src="https://uhchat.net/code.php?f=09067c"></script>
 </head>
 <body class="body_index">
    <!-- Main content -->
