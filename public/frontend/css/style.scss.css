@@ -405,7 +405,7 @@ header .main-nav nav {
     height: 40px;
     border-radius: 50%;
     color: #fff;
-    background: #004fb6;
+    background: #333333;
     line-height: 40px;
     font-size: 20px
 }
@@ -419,7 +419,6 @@ header .main-nav nav {
 }
 
 .header_search:before {
-    /* content:''; */
     display: inline-block;
     position: absolute;
     top: 40px;
@@ -439,13 +438,13 @@ header .main-nav nav {
 
 .header_search .icon-click-search {
     display: inline-block;
-    border: 1px solid #ffffff;
+    border: 1px solid #fff;
     width: 40px;
     border-radius: 50%;
     height: 40px;
     line-height: 38px;
     text-align: center;
-    color: #ffffff;
+    color: #fff
 }
 
 .header_search input {
@@ -458,8 +457,8 @@ header .main-nav nav {
     position: absolute;
     top: 55px;
     width: 300px;
-    right: 0px;
-    display: none;
+    right: 0;
+    display: none
 }
 
 .header_search .input-group .search-text {
@@ -475,7 +474,7 @@ header .main-nav nav {
     opacity: 0;
     width: 100%;
     background-color: #f1f3f4;
-    opacity: 1;
+    opacity: 1
 }
 
 .header_search .input-group-btn {
@@ -1020,7 +1019,7 @@ footer form button#subscribe {
     white-space: nowrap;
     border-bottom: 1px solid rgba(255,255,255,.2);
     height: 40px;
-    background: #333333;
+    background: #333
 }
 
 .menu-box-fixed ul li:last-child {
@@ -1028,11 +1027,11 @@ footer form button#subscribe {
 }
 
 .menu-box-fixed ul li:hover {
-    background: #1a1919;
+    background: #1a1919
 }
 
 .menu-box-fixed ul i {
-    color: #ffffff;
+    color: #fff;
     border-right: 1px solid rgba(255,255,255,.2);
     display: inline-block;
     width: 40px;
@@ -1161,7 +1160,7 @@ span.wrp.effect-2 img {
 }
 
 .section_blogs .blog-img a:hover {
-    background: #333333;
+    background: #333
 }
 
 .section_blogs .blog-img a:hover img {
@@ -4229,7 +4228,7 @@ header nav .mega-content .level1.item ul li a:hover {
 }
 
 .main-nav nav .nav-item:hover>a {
-    color: #fff;
+    color: #fff
 }
 
 .main-nav nav .nav-item>a {
@@ -4951,8 +4950,7 @@ header nav .mega-content .level1.item ul li a:hover {
 }
 
 .main-nav nav .mega-content .level1.item {
-    padding: 0 5px;
-    /* margin-bottom:15px; */
+    padding: 0 5px
 }
 
 .main-nav nav .mega-content .level1.item h2 {
@@ -4986,7 +4984,7 @@ header nav .mega-content .level1.item ul li a:hover {
 }
 
 .main-nav nav .nav-item>a {
-    color: #ffffff;
+    color: #fff;
     padding: 0 20px;
     line-height: 30px;
     max-height: 30px;
@@ -6155,7 +6153,7 @@ span.vendor_.frist .vendor {
 }
 
 .header_search .input-group {
-    top: 0;
+    top: 0
 }
 
 footer .back-to-top {
@@ -6167,7 +6165,7 @@ footer .back-to-top.show {
 }
 
 .header.posintion-fixed .header_search .input-group {
-    top: 0;
+    top: 0
 }
 
 .header.posintion-fixed .header_search:before {
@@ -6183,7 +6181,7 @@ footer .back-to-top.show {
 }
 
 .main-nav nav .nav-item>a:hover {
-    color: #ffffff;
+    color: #fff
 }
 
 .header.posintion-fixed .main-nav nav .nav-item>.dropdown-menu {
@@ -6422,11 +6420,11 @@ footer .back-to-top.show {
 }
 
 .breadcrumb-container .title-page {
-    color: #ffffff;
+    color: #fff;
     position: relative;
     font-weight: 700;
     font-size: 22px;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #fff;
     line-height: 36px;
     text-transform: uppercase;
     font-family: arial
@@ -7238,7 +7236,8 @@ footer .section-newsletter__form button#subscribe {
     }
 
     .middle-header {
-        padding: 0
+        padding: 0;
+        background-color: #333333;
     }
 
     .header_search .input-group {
@@ -7250,14 +7249,14 @@ footer .section-newsletter__form button#subscribe {
         display: inline-block;
         width: 40px;
         height: 40px;
-        background: #004fb6;
+        background: #333333;
         text-align: center;
         margin-right: 0;
         margin-top: 12px
     }
 
     .middle-header .menu-bar i {
-        color: #ffd900;
+        color: #ffffff;
         font-size: 20px;
         line-height: 38px
     }
@@ -7312,7 +7311,7 @@ footer .section-newsletter__form button#subscribe {
     }
 
     .main-nav .head-menu {
-        background: #004fb6;
+        background: #333333;
         padding: 25px 0;
         position: relative
     }
@@ -7321,7 +7320,7 @@ footer .section-newsletter__form button#subscribe {
         display: inline-block;
         width: 25px;
         height: 25px;
-        background: #ffd900;
+        background: #ffffff;
         color: #fff;
         font-size: 18px;
         line-height: 23px;
@@ -7329,7 +7328,7 @@ footer .section-newsletter__form button#subscribe {
         border-radius: 50%;
         top: 5px;
         right: 5px;
-        color: #004fb6
+        color: #333333;
     }
 
     .main-nav .head-menu .logo-wrapper {
@@ -7338,7 +7337,7 @@ footer .section-newsletter__form button#subscribe {
     }
 
     .main-nav .footer-menu a.hotline {
-        color: #004fb6;
+        color: #333333;
         font-weight: 700;
         font-size: 18px;
         display: inline-block;
@@ -7616,9 +7615,9 @@ header+div,header+section {
 
 header .header-main {
     padding: 10px;
-    background: #333333;
+    background: #333;
     margin-top: 0;
-    box-shadow: -10px 10px rgb(33 32 32 / 60%);
+    box-shadow: -10px 10px rgb(33 32 32/60%);
     transition: .5s
 }
 
@@ -7719,7 +7718,7 @@ header .main-nav {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #ffffff;
+    background: #fff;
     text-align: center;
     line-height: 38px;
     font-size: 15px;
@@ -7766,7 +7765,7 @@ header .main-nav {
     pointer-events: none;
     transform: scaleX(-1);
     z-index: 2;
-    background-color: #333333;
+    background-color: #333
 }
 
 .section_blogs .blog-inner {
@@ -7844,7 +7843,7 @@ header .main-nav {
 
 .section-why-choose .item .text>p {
     font-style: italic;
-    font-size: 22px;
+    font-size: 22px
 }
 
 .section-why-choose .item .fa {
@@ -7881,7 +7880,7 @@ header .main-nav {
     height: 60px;
     margin-right: 10px;
     border-radius: 50%;
-    background: #ffffff;
+    background: #fff;
     align-items: center;
     justify-content: center
 }
@@ -7921,7 +7920,7 @@ header .main-nav {
     font: 400 14px/20px "Roboto";
     color: #fff;
     font-style: italic;
-    color: #ffffff;
+    color: #fff
 }
 
 .section-achievement .item:nth-child(1) h2 {
@@ -7958,7 +7957,7 @@ header .main-nav {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #333333;
+    background: #333;
     z-index: -1
 }
 
@@ -8230,7 +8229,7 @@ footer .list-menu.social-media-footer a i {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: #333333;
+    background: #333;
     z-index: -1
 }
 
@@ -8567,7 +8566,7 @@ select {
 .view-more {
     padding: 8px;
     border: 1px solid #1a1919;
-    color: #1a1919;
+    color: #1a1919
 }
 
 .desc {
@@ -8625,13 +8624,13 @@ select {
     padding-top: 2px
 }
 
-@media (min-width: 991px) and (max-width: 1200px) {
+@media(min-width: 991px) and (max-width:1200px) {
     .main-nav nav .nav-item a {
-        font-size: 11px;
+        font-size:11px
     }
 
     body {
-        font-size: 11px;
+        font-size: 11px
     }
 
     .home-blog1 .item h3 {
@@ -8641,38 +8640,38 @@ select {
         text-align: center;
         padding: 0 30px;
         margin-bottom: 6px;
-        -webkit-line-clamp: inherit;
+        -webkit-line-clamp: inherit
     }
 
     .section-achievement .item:nth-child(1) h2 {
         color: #fff;
         margin: 0 0 10px;
         text-transform: uppercase;
-        font: 700 25px/30px "Roboto";
+        font: 700 25px/30px "Roboto"
     }
 
     .section-why-choose .item .text h2 {
         color: #fff;
         margin-top: 0;
         font: 900 25px/30px "Roboto";
-        text-transform: uppercase;
+        text-transform: uppercase
     }
 
     .home-about h2 {
         color: #004fb6;
         font: 900 25px/30px "Roboto";
         margin-top: 0;
-        text-transform: uppercase;
+        text-transform: uppercase
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1320px) {
+@media(min-width: 1200px) and (max-width:1320px) {
     .main-nav nav .nav-item a {
-        font-size: 13px;
+        font-size:13px
     }
 
     body {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .home-blog1 .item h3 {
@@ -8682,35 +8681,35 @@ select {
         text-align: center;
         padding: 0 30px;
         margin-bottom: 6px;
-        -webkit-line-clamp: inherit;
+        -webkit-line-clamp: inherit
     }
 
     .section-achievement .item:nth-child(1) h2 {
         color: #fff;
         margin: 0 0 10px;
         text-transform: uppercase;
-        font: 700 30px/30px "Roboto";
+        font: 700 30px/30px "Roboto"
     }
 
     .section-why-choose .item .text h2 {
         color: #fff;
         margin-top: 0;
         font: 900 30px/30px "Roboto";
-        text-transform: uppercase;
+        text-transform: uppercase
     }
 
     .home-about h2 {
         color: #004fb6;
         font: 900 30px/30px "Roboto";
         margin-top: 0;
-        text-transform: uppercase;
+        text-transform: uppercase
     }
 
     .section-banner-footer .text {
-        margin-bottom: 30px;
+        margin-bottom: 30px
     }
 }
 
 .main-nav nav .mega-content .level1.item h2 a:hover {
-    padding-left: 8px;
+    padding-left: 8px
 }
