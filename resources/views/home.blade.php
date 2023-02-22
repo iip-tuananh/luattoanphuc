@@ -248,7 +248,7 @@
             <div class="bg-cover" style='background-image: url({{url('frontend/images/loading.svg')}})' data-lazyload2="{{url('frontend/images/why-choose1.jpg')}}"></div>
          </div>
          <div class="item">
-            <div class="text bg-cover" style='background:#002e5b url({{url('frontend/images/loading.svg')}});background-attachment: fixed; background-size: cover;' data-lazyload2="{{url('frontend/images/bg-footer1.png')}}" loading="lazy">
+            <div class="text bg-cover" style='background:#333333 url({{url('frontend/images/loading.svg')}});background-attachment: fixed; background-size: cover;' data-lazyload2="{{url('frontend/images/bg-footer1.png')}}" loading="lazy">
                <h2>TẠI SAO CHỌN CHÚNG TÔI</h2>
                <p>Sự lựa chọn pháp lý uy tín<br>
                   Bảo vệ quyền lợi và lợi ích khách hàng<br>
