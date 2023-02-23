@@ -253,6 +253,17 @@
                         </ul>
                      </nav>
                      <div class="hidden-lg hidden-md footer-menu">
+                        <div id="translate_select" style="display: none"></div>
+                        <div class="image-item " style="display: flex; justify-content: space-evenly;">
+                           <a href="javascript:;" class="flag_link" rel="" title="Tiếng Việt" data-lang="vi">
+                                 <img src="{{url('frontend/images/flag-vn.png')}}" alt="" loading="lazy">
+                                 <span style="color: #000">Tiếng Việt</span>
+                           </a>
+                           <a href="javascript:;" class="flag_link" rel="" title="Tiếng Anh" data-lang="en">
+                                 <img src="{{url('frontend/images/flag-en.png')}}" alt="" loading="lazy">
+                                 <span style="color: #000">Tiếng Anh</span>
+                           </a>
+                        </div>
                         <div class="box">
                            <a class="hotline" href="tel:{{$setting->phone1}}" title="phone"><i class="fa fa-phone"></i> {{$setting->phone1}}</a>
                         </div>
