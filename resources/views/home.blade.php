@@ -116,7 +116,7 @@
          <!--End item-->
          <div class="item hidden-xs">
             <div class="divider"></div>
-            <div class="bg-cover"></div>
+            <div class="bg-cover" style='background-image: url({{url('frontend/images/loading.svg')}})' data-lazyload2="{{url('frontend/images/thanhtuu.jpg')}}"></div>
          </div>
          </div>
    </section>
