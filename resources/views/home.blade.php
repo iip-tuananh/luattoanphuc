@@ -110,13 +110,13 @@
                </div>
             </div>
             <div class="bg-dot">
-               <img src="{{url('frontend/images/loading.svg')}}" data-lazyload="{{url('frontend/images/bg-thanhtuu.png')}}" class="img-responsive" alt="" loading="lazy">
+               {{-- <img src="{{url('frontend/images/loading.svg')}}" data-lazyload="{{url('frontend/images/bg-thanhtuu.png')}}" class="img-responsive" alt="" loading="lazy"> --}}
             </div>
          </div>
          <!--End item-->
          <div class="item hidden-xs">
             <div class="divider"></div>
-            <div class="bg-cover" style='background-image: url({{url('frontend/images/loading.svg')}})' data-lazyload2="{{url('frontend/images/thanhtuu.jpg')}}"></div>
+            <div class="bg-cover"></div>
          </div>
          </div>
    </section>
@@ -248,7 +248,7 @@
             <div class="bg-cover" style='background-image: url({{url('frontend/images/loading.svg')}})' data-lazyload2="{{url('frontend/images/why-choose1.jpg')}}"></div>
          </div>
          <div class="item">
-            <div class="text bg-cover" style='background:#333333 url({{url('frontend/images/loading.svg')}});background-attachment: fixed; background-size: cover;' data-lazyload2="{{url('frontend/images/bg-footer1.png')}}" loading="lazy">
+            <div class="text bg-cover" style='background:#333333;' loading="lazy">
                <h2>TẠI SAO CHỌN CHÚNG TÔI</h2>
                <p>Sự lựa chọn pháp lý uy tín<br>
                   Bảo vệ quyền lợi và lợi ích khách hàng<br>
