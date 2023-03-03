@@ -57,7 +57,11 @@
 .title-text h2 {
     font-weight: 700
 }
-
+@media only screen and (max-width: 608px) {
+    .header-main .logo img {
+        max-height: 100px;
+    }
+}
 .title-head {
     font-size: 1.14286em;
     font-weight: 700;
