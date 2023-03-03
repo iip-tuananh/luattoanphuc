@@ -13,9 +13,28 @@
 .space-40 {
     margin-bottom: 40px
 }
+.VIpgJd-ZVi9od-ORHb {
+    margin: 0;
+    background-color: #E4EFFB;
+    overflow: hidden;
+    display: none !important;
+}
+
 
 .space-50 {
     margin-bottom: 50px
+}
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    left: 0;
+    top: 0;
+    height: 39px;
+    width: 100%;
+    z-index: 10000001;
+    position: fixed;
+    border: none;
+    border-bottom: none !important;
+    margin: 0;
+    box-shadow:none !important;
 }
 
 .material-icons {
