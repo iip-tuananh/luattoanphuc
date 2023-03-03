@@ -35,6 +35,7 @@
     border-bottom: none !important;
     margin: 0;
     box-shadow:none !important;
+    display: none !important;
 }
 
 .material-icons {
